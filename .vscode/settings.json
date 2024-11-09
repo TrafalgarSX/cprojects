@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "path_hashing.h": "c",
+        "string.h": "c",
+        "time.h": "c",
+        "chained_hashing.h": "c",
+        "stdint.h": "c"
+    }
+}

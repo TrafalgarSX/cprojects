@@ -1,0 +1,14 @@
+{
+    "name":"MyProject_dependencies",
+    "version-semver":"1.0.0",
+    "dependencies":[
+      {
+        "name":"gtest",
+        "version-semver":"1.12.0"
+      },
+      "curl",
+      "gflags",
+      "glog",
+      "zlib"
+    ]
+}

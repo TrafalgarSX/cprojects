@@ -1,0 +1,13 @@
+EXPORTS
+    SM9_Key_encap
+    SM9_Release
+    SM9_Key_decap
+    SM9_GenerateEncryptKey
+    SM9_Encrypt
+    SM9_GenerateSignKey
+    SM9_Verify
+    SM9_GenMasterEncKey
+    SM9_Init
+    SM9_GenMasterSignKey
+    SM9_Sign
+    SM9_Decrypt

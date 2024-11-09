@@ -1,0 +1,26 @@
+# vim: set fenc=utf-8 ft=dosini:
+# see: https://github.com/skywind3000/asynctasks.vim/wiki/Task-Config
+
+[project-init]
+command=rm -rf build && mkdir build && cd build && cmake ..
+command/win32=rd /s /q build 2> nul & mkdir build & cd build && cmake ..
+cwd=<root>
+save=2
+
+[project-build]
+command=cmake --build build
+cwd=<root>
+errorformat=%. %#--> %f:%l:%c,%f(%l):%m,%f:%l:%c:%m,%f:%l:%m
+save=2
+
+[project-run]
+command=build/$(VIM_PRONAME)
+cwd=<root>
+output=terminal
+
+[project-test]
+command=echo test task
+cwd=<root>
+output=terminal
+
+

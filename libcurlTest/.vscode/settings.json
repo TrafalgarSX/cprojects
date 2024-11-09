@@ -1,0 +1,10 @@
+{
+	"files.associations": {
+		"hello.h": "c",
+		"curl.h": "c",
+		"http2.h": "c",
+		"schannel.h": "c",
+		"libcurltest.h": "c",
+		"stdio.h": "c"
+	}
+}
